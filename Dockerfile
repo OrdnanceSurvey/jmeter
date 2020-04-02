@@ -18,8 +18,8 @@
 #        That seems icky.  Fix it, yo!
 
 # Use jmeter-base as the foundation
-FROM ordnancesurvey/jmeter-base
-MAINTAINER mark.meany@os.uk
+FROM ordnancesurvey/jmeter-base:v3.0
+MAINTAINER nathan.meys@os.uk
 
 # Create mount point for script, data and log files
 VOLUME ["/scripts"]
